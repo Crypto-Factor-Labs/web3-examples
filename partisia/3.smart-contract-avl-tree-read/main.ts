@@ -1,6 +1,6 @@
 import {PartisiaBlockchainService} from "@unleashed-business/ts-web3-commons/dist/pbc/pbc.service.js";
 import {PBCChain} from "@unleashed-business/ts-web3-commons/dist/pbc/pbc.chains.js";
-import {ForkRegistryAbi, MasterChainMempoolAbi} from "@crypto-factor-labs/interchain-ts-abi";
+import {MasterChainMempoolAbi} from "@crypto-factor-labs/interchain-ts-abi";
 import {U32TypeSpec, U64TypeSpec} from "@unleashed-business/ts-web3-commons/dist/pbc/spec/commons.tspec.js";
 
 (async function (): Promise<void> {

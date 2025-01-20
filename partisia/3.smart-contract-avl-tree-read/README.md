@@ -45,7 +45,7 @@ We will make a query to select to the avl tree with tree id #2 from the smart co
 using the "call" method as follows: 
 ```typescript
 import {PBCChain} from "@unleashed-business/ts-web3-commons/dist/pbc/pbc.chains.js";
-import {ForkRegistryAbi} from "@crypto-factor-labs/interchain-ts-abi";
+import {MasterChainMempoolAbi} from "@crypto-factor-labs/interchain-ts-abi";
 
 ...
 
